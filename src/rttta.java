@@ -48,6 +48,18 @@ public class rttta
             {
                 System.out.println("This is animal food, silly!");
             }
+            else if (userChoice.equalsIgnoreCase("Canned food"))
+            {
+                System.out.println("Canned food can last for a lot longer than other foods, due to it being canned!");
+            }
+            else if (userChoice.equalsIgnoreCase("Greasy food"))
+            {
+                System.out.println("You''d better not be typing with greasy fingers! You'll get your keyboard all greasy!");
+            }
+            else if (userChoice.equalsIgnoreCase("Sweets"))
+            {
+                System.out.println("My favorite sweet is cookies!");
+            }
         }
         else if (userChoice.equalsIgnoreCase("Let's play a game"))
         {

@@ -11,8 +11,7 @@ public class Compliments
         name = input.nextLine();
 
         System.out.println("What a beautiful name " + name + ".");
-        System.out.println("");
-        System.out.println("Press 1 to get complimented !!! ");
+        System.out.println("Press 1 to get complimented!!! ");
         int next = input.nextInt();
 
         if (next == 1)
@@ -26,7 +25,6 @@ public class Compliments
 
         else if (next != 1)
         {
-            System.out.println("");
             System.out.println("Have a good day anyway. ");
         }
 
