@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Random;
 public class rttta
 {
     public static void rttta() throws InterruptedException
@@ -36,7 +35,7 @@ public class rttta
             }
             else if (userChoice.equalsIgnoreCase("The weather is foggy"))
             {
-                System.out.println("Don't get lost out there! Maybe Akira Yamaoka can be your guide, he he.");
+                System.out.println("Don't get lost out there! Maybe Akira Yamaoka can be your guide, he he."); //Silent Hill reference that nobody will get:(
             }
         }
         else if (userChoice.equalsIgnoreCase("food"))
@@ -54,21 +53,22 @@ public class rttta
             }
             else if (userChoice.equalsIgnoreCase("Greasy food"))
             {
-                System.out.println("You''d better not be typing with greasy fingers! You'll get your keyboard all greasy!");
+                System.out.println("You'd better not be typing with greasy fingers! You'll get your keyboard all greasy!");
             }
             else if (userChoice.equalsIgnoreCase("Sweets"))
             {
                 System.out.println("My favorite sweet is cookies!");
             }
+            //The pre-programmed responses here are the best course of action, as we wouldn't have been able to make human scale conversations with these with the time given.
         }
-        else if (userChoice.equalsIgnoreCase("Let's play a game"))
+        else if (userChoice.equalsIgnoreCase("Let's play a game") || userChoice.equalsIgnoreCase("lets play a game"))
         {
-            playGame();
+            playGame(); //This is called in a different class entirely
         }
     }
 
     private static void playGame()
     {
         games.games();
-    }
+    } //This is what allows it to display
 }

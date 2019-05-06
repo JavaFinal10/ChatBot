@@ -2,11 +2,8 @@ import java.util.Scanner;
 public class games
 {
     public static void games() {
+        //Scanner is important to this, without it the user cannot enter a number.
         Scanner input = new Scanner(System.in);
-        System.out.println("I have 2 games 2 play with you 2 day!");
-        int userChoiceint;
-        userChoiceint = input.nextInt();
-        if (userChoiceint == 1) {
             int rock = 1;
             int paper = 2;
             int scissors = 3;
@@ -42,15 +39,10 @@ public class games
                 result = "That isn't a guess, automatic loss.";
             displayMessage(result);
         }
-        else if (userChoiceint == 2)
-        {
-
-        }
-    }
 
     public static void displayMessage(String result)
     {
         System.out.println(result);
-    }
+    } //Allows for display to the main
     }
 
