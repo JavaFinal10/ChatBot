@@ -39,9 +39,7 @@ public class Jokes
         int x = 1;
 
         if (userInput == 1){
-            System.out.println("");
             System.out.println("Your Random Joke: ");
-            System.out.println("");
 
             while (x <= 1) {
                 Random rand = new Random();
@@ -94,7 +92,6 @@ public class Jokes
         }
         else if (userInput != 1)
         {
-            System.out.println("");
             System.out.println("Have a good day anyway. ");
         }
 

@@ -18,7 +18,7 @@ public class Main
                 Greetings Greetings = new Greetings();
                 Greetings.greetings();
             } else if (userChoice.equalsIgnoreCase("Tell me something")) {
-                System.out.println("I have 3 topics to share, choose one!");
+                System.out.println("I have 3 topics to share, choose one! (By picking a number 1-3)");
                 int userChoiceint;
                 userChoiceint = input.nextInt();
                 if (userChoiceint == 1) {
@@ -26,7 +26,7 @@ public class Main
                 } else if (userChoiceint == 2) {
                     Jokes.jokes();
                 } else if (userChoiceint == 3) {
-                    RandomFacts.randfacts();
+                    RandomFacts.randFacts();
                 }
             } else if (userChoice.equalsIgnoreCase("What do you want to talk about?") ||
                     userChoice.equalsIgnoreCase("What do you want to talk about")) {
