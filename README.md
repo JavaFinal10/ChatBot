@@ -6,3 +6,4 @@ Morgan is intelligent, and has random facts to share with you. These facts could
 There are more things to talk about with Morgan, however we don't want to spoil it all for you.
 The keywords will be displayed when using Morgan, and will give you a different answer (from the ones we have premade, and from the Random Number Generator).
 We hope you enjoy talking with Morgan, because it sure enjoys talking to you!
+https://www.draw.io/#G1yaJ-hGyF_QTuscdF_BSwYc0jYim1jt4T
